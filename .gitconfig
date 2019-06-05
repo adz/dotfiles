@@ -1,0 +1,11 @@
+[user]
+	email = adzdavies@gmail.com
+	name = Adam Davies
+[alias]
+	cleanup = !git branch --merged | grep -v -P '^\\*|master|develop' | xargs -n1 -r git branch -d
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[core]
+	editor = vim
