@@ -18,3 +18,6 @@ alias l='ls -ahl --color=auto'
 # Add tools
 export PATH="$PATH:~/tools/bin"
 alias config='/usr/bin/git --git-dir=/home/adam/.cfg/ --work-tree=/home/adam'
+
+#so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
+stty -ixon
