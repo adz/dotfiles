@@ -1,2 +1,3 @@
 " change the mapleader from \ to ,
 let mapleader=","
+set mouse=a

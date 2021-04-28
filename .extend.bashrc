@@ -1,12 +1,8 @@
 #!/bin/bash
 
-# ASDF
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
-
 # Add .NET Core SDK tools
 export PATH="$PATH:/home/adam/.dotnet/tools"
-export DOTNET_ROOT=~/.asdf/installs/dotnet-core/2.2.300/
+export DOTNET_ROOT=~/.asdf/installs/dotnet-core/5.0.100/
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 # To remember current for new terminals
@@ -14,6 +10,7 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 # Aliases
 alias l='ls -ahl --color=auto'
+alias lg='lazygit'
 
 # Add tools
 export PATH="$PATH:~/tools/bin"

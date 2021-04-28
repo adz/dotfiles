@@ -1,5 +1,5 @@
 [user]
-	email = adzdavies@gmail.com
+	email = 41101+adz@users.noreply.github.com
 	name = Adam Davies
 [alias]
 	cleanup = !git branch --merged | grep -v -P '^\\*|master|develop' | xargs -n1 -r git branch -d
@@ -9,3 +9,5 @@
 	tool = vimdiff
 [core]
 	editor = vim
+[pull]
+	ff = only
