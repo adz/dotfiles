@@ -9,5 +9,8 @@
 	tool = vimdiff
 [core]
 	editor = vim
+	autocrlf = input
 [pull]
 	ff = only
+[mergetool]
+	keepBackup = false
