@@ -1,0 +1,12 @@
+# In i3/config:
+94c94
+< bindsym $mod+$i3-wm.binding.terminal exec /usr/bin/st
+---
+> bindsym $mod+$i3-wm.binding.terminal exec /usr/bin/gnome-terminal
+463a464,468
+> 
+> # Add custom settings ABD
+> for_window [window_role="browser"] floating enable
+> for_window [title="Calculator"] floating enable
+> for_window [window_role="About"] floating enable
+
